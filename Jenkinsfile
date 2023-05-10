@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3.9.1-amazoncorretto-20'
-    j        args '-u root'
+            args '-u root'
         }
     }
     stages {
